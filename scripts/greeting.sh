@@ -2,6 +2,7 @@
 # Plays "Pouah ! Ca puir !" on the first prompt of each Claude session
 
 PLUGIN_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+[ -f /tmp/connardva-muted ] && exit 0
 
 # Check if we already greeted in this Claude session
 # Use parent PID (Claude process) to track session

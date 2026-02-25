@@ -4,6 +4,7 @@
 # Plays a random insult audio if triggered
 
 PLUGIN_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+[ -f /tmp/connardva-muted ] && exit 0
 LOG="/tmp/bonnefrankette-insult-debug.log"
 INPUT=$(cat)
 echo "$(date) — RAW INPUT: $INPUT" >> "$LOG"

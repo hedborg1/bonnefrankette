@@ -2,6 +2,7 @@
 # Plays "Ah !" when Claude asks a question (AskUserQuestion tool)
 
 PLUGIN_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+[ -f /tmp/connardva-muted ] && exit 0
 LOG="/tmp/bonnefrankette-question-debug.log"
 INPUT=$(cat)
 echo "$(date) — INPUT: $INPUT" >> "$LOG"

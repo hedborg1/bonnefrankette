@@ -55,7 +55,8 @@ bonnefrankette/
 │   ├── greeting.sh            # Salut au démarrage
 │   ├── insult-detector.sh     # Détection + réplique Kaamelott
 │   ├── task-done-fart.sh      # Son de fin de tâche
-│   └── question-sound.sh      # Son de question
+│   ├── question-sound.sh      # Son de question
+│   └── mute.sh                # Toggle mute on/off
 ├── sounds/
 │   ├── greeting.mp3           # Pouah ! Ca puir !
 │   ├── task-done-1.mp3        # C'est Okay !
@@ -65,6 +66,19 @@ bonnefrankette/
     ├── silence-vilaine.mp3    # Silence vilaine !
     └── sarrasin-chariotte.mp3 # Un Sarrasin dans une chariotte du diable !
 ```
+
+## Mute/Unmute
+
+En réunion ? Coupe tous les sons d'un coup :
+
+```bash
+# Dans Claude, dis juste "mute" ou "unmute"
+
+# Ou depuis un terminal :
+./scripts/mute.sh
+```
+
+Le script toggle entre mute et unmute. Le flag est partagé avec connardva — un seul mute coupe tous les plugins audio.
 
 ## Debug
 
