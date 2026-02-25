@@ -1,0 +1,36 @@
+{
+  "name": "bonnefrankette-marketplace",
+  "owner": {
+    "name": "hedborg1"
+  },
+  "metadata": {
+    "description": "Plugin Kaamelott pour Claude Code - répliques cultes et insultes audio"
+  },
+  "plugins": [
+    {
+      "name": "bonnefrankette",
+      "source": "./",
+      "description": "Plugin Claude Code inspiré de Kaamelott. Détecte les insultes en français et te répond avec des répliques cultes.",
+      "version": "1.0.0",
+      "author": {
+        "name": "hedborg1"
+      },
+      "category": "fun",
+      "tags": ["kaamelott", "audio", "french", "insults", "sounds"]
+    },
+    {
+      "name": "connardva",
+      "source": {
+        "source": "github",
+        "repo": "hedborg1/connardva"
+      },
+      "description": "Claude Code plugin that talks back when you're rude. Detects insults in French and English, plays audio insults back at you, farts when tasks complete, and plays question sounds when Claude asks something.",
+      "version": "1.0.0",
+      "author": {
+        "name": "hedborg1"
+      },
+      "category": "fun",
+      "tags": ["insult", "audio", "french", "english", "fart", "sounds"]
+    }
+  ]
+}

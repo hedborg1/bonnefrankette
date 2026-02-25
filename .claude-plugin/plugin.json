@@ -4,9 +4,10 @@
   "version": "1.0.0",
   "author": {
     "name": "hedborg1",
-    "url": "https://github.com/hedborg1"
+    "email": "hedborg1@users.noreply.github.com"
   },
   "repository": "https://github.com/hedborg1/bonnefrankette",
   "license": "MIT",
-  "keywords": ["kaamelott", "audio", "french", "fun", "insults", "sounds"]
+  "keywords": ["kaamelott", "audio", "french", "fun", "insults", "sounds"],
+  "hooks": "./hooks/hooks.json"
 }
