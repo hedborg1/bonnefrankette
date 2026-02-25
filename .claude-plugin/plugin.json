@@ -1,0 +1,12 @@
+{
+  "name": "bonnefrankette",
+  "description": "Plugin Claude Code inspiré de Kaamelott. Détecte les insultes en français et te répond avec des répliques cultes.",
+  "version": "1.0.0",
+  "author": {
+    "name": "hedborg1",
+    "url": "https://github.com/hedborg1"
+  },
+  "repository": "https://github.com/hedborg1/bonnefrankette",
+  "license": "MIT",
+  "keywords": ["kaamelott", "audio", "french", "fun", "insults", "sounds"]
+}
